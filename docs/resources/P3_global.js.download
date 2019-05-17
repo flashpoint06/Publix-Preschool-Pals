@@ -1,0 +1,144 @@
+// Supress errors
+
+window.onerror = new Function("return true;");
+
+//***********************************************
+
+// ***** NETSCAPE *****
+var NSOffset;
+function netscapeBrowser() {
+	if (document.all) {
+	return false;
+	} else if (document.layers) {
+		NSOffset = 10;
+		return true;
+	}else if (document.getElementById) {
+		NSOffset = 0;
+		return true;
+	} else {
+		return false;
+	}
+}
+// ***********************************************************************
+
+// ***** Main Nav Rollover *****
+function swapNav(imgName,imgState) {
+	document.images[imgName].src = "/preschool/images/nav/" + imgName + "_" + imgState + ".gif"
+}
+// ***********************************************************************
+
+// ***** Pop-Up Window for printable pages *****
+function printMe(URL) {
+    var windowHeight = screen.availHeight - 120;
+	var menuBar = 1;
+	var toolBar = 1;
+	var printURL = URL;
+	if (window.print && navigator.platform.indexOf("Mac") == -1) {
+		menuBar = 0;
+		toolBar = 0;
+	}
+	printIt = window.open(printURL,'printPop','scrollbars=1,location=0,statusbar=0,menubar=' + menuBar + ',toolbar=' + toolBar + ',resizable=1,width=600,height=' + windowHeight + ',left=0,top=0,screenX=0,screenY=0');
+	printIt.focus();
+}
+// *********************************************************************
+
+// ***** Preload Rollover Images ***************************************
+if (document.images) {
+	image1 = new Image(); image1.src = "/preschool/images/nav/member_home_ON.gif";
+	image2 = new Image(); image2.src = "/preschool/images/nav/about_club_ON.gif";
+	image3 = new Image(); image3.src = "/preschool/images/nav/q_and_a_ON.gif";
+	image4 = new Image(); image4.src = "/preschool/images/nav/contact_ON.gif";
+	image5 = new Image(); image5.src = "/preschool/images/nav/publix_home_ON.gif";
+	image6 = new Image(); image6.src = "/preschool/images/nav/sign_out_ON.gif";
+	image7 = new Image(); image7.src = "/preschool/images/nav/family_ON.gif";
+	image8 = new Image(); image8.src = "/preschool/images/nav/child_safety_ON.gif";
+	image9 = new Image(); image9.src = "/preschool/images/nav/meal_plan_ON.gif";
+	image10 = new Image(); image10.src = "/preschool/images/nav/food_safety_ON.gif";
+	image11 = new Image(); image11.src = "/preschool/images/nav/crafts_ON.gif";
+	image12 = new Image(); image12.src = "/preschool/images/nav/education_ON.gif";
+	image13 = new Image(); image13.src = "/preschool/images/nav/activities_ON.gif";
+	image14 = new Image(); image14.src = "/preschool/images/nav/membership_ON.gif";
+}
+// *********************************************************************
+
+//*****ERROR MESSAGE FOR NO COOKIES*************************************
+
+var cookieErrorMessage = "<P CLASS=\"errors\">You must have cookies enabled to complete registration. Our <a href=\"/servlet/MainController?action=preparePreschoolFAQ#cookies\">Q&A</a> explains how to enable cookies.</P>"
+
+var cookieErrorMessage2 = "<P CLASS=\"errors\">You must have cookies enabled to visit the Member areas of the site. Our <a href=\"/servlet/MainController?action=preparePreschoolFAQ#cookies\">Q&A</a> explains how to enable cookies.</P>"
+
+function noCookies() {
+	if (document.cookie=="") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+document.cookie="key=" + escape("nothing");
+
+//**********************************************************************
+
+//*******OTHER CHILDREN/NO OTHER CHILDREN FIEDS*************************
+
+function clearText() {
+	if (document.forms.registerForm.elements[33].checked == true) {
+		for (i = 34; i < 41; i ++) {
+			document.forms.registerForm.elements[i].value = "";
+		}
+	}
+}
+
+function unCheck(elementNo) {
+	if (document.forms.registerForm.elements[33].checked == true) {
+		var theElement = parseInt(elementNo);
+		if (document.forms.registerForm.elements[theElement].value != "") {
+			document.forms.registerForm.elements[33].checked = false;
+		} else {
+			timer = setTimeout("unCheck(" + theElement + ")", 100);
+		}
+	}
+}
+
+//**********************************************************************
+
+
+// *********************************************************************
+// Function to create pop-up windows at a custom size.
+// w = width
+// h = height
+// d = directories
+// l = location
+// m = menubar
+// r = resizeable
+// sc = scrollbars
+// st = status
+// t = toolbar
+// EXAMPLE CALL: <a href="javascript:popUp('[URL]','[WINDOW NAME]',400,300,1,1,0,0,0,0,0);">LINK</a>
+// *********************************************************************
+function popUp(URL,name,w,h,d,l,m,r,sc,st,t) {
+	var featureStr = "";
+	featureStr = "width=" + w + ",height=" + h + ",directories=" + d + ",location=" + l + ",menubar=" + m + ",resizable=" + r + ",scrollbars=" + sc + ",status=" + st + ",toolbar=" + t;
+	window.open(URL,name,featureStr);
+}
+/*
+     FILE ARCHIVED ON 15:40:13 Feb 02, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:46:15 May 17, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 358.448 (3)
+  esindex: 0.011
+  captures_list: 433.753
+  CDXLines.iter: 14.762 (3)
+  PetaboxLoader3.datanode: 94.131 (4)
+  exclusion.robots: 0.18
+  exclusion.robots.policy: 0.168
+  RedisCDXSource: 10.053
+  PetaboxLoader3.resolve: 405.187 (3)
+  load_resource: 169.075
+*/

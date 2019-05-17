@@ -1,0 +1,533 @@
+BODY
+{
+    MARGIN: 0;
+	BACKGROUND: #ffffff;
+}
+
+img {
+    border: none;
+}
+
+TR, TD, P, SPAN
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+}
+
+UL
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+    COLOR: #333333;
+}
+
+OL
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+    COLOR: #333333;
+}
+
+.levelTwo
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+    COLOR: #333333;
+}
+
+A
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+    COLOR: #669900;
+    TEXT-DECORATION: underline;
+}
+
+A:hover
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+    COLOR: #990099;
+    TEXT-DECORATION: underline;
+}
+
+B
+{
+    FONT-WEIGHT: bold;
+}
+
+.sidebar
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+	BACKGROUND: #fcf3c8;
+}
+
+.sidebar A
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+	COLOR: #669900;
+    TEXT-DECORATION: underline;
+}
+
+.sidebar A:hover
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+	COLOR: #990099;
+    TEXT-DECORATION: underline;
+}
+
+.sidebarSM {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	COLOR: #333333;
+	FONT-WEIGHT: normal;
+	BACKGROUND: #fcf3c8;
+}
+
+.sidebarSM A {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	COLOR: #669900;
+	FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline;
+}
+
+.sidebarSM A:hover {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	COLOR: #990099;
+	FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline;
+}
+
+.divider
+{
+	BACKGROUND: #e3ca8b;
+}
+
+.dividerGR
+{
+	BACKGROUND: #a8d546;
+}
+
+.ltYellowBG
+{
+	BACKGROUND: #FBF3C7;
+}
+
+.purpleBG
+{
+	BACKGROUND: #993399;
+}
+
+.dividerBlack
+{
+	BACKGROUND: #000000;
+}
+
+.whiteText
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+    COLOR: #FFFFFF;
+}
+
+.white
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+	BACKGROUND: #ffffff;
+}
+
+.white A
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+	COLOR: #669900;
+    TEXT-DECORATION: underline;
+}
+
+.white A:hover
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+	COLOR: #990099;
+    TEXT-DECORATION: underline;
+}
+
+.charHead
+{
+	BACKGROUND: #a8d546;
+}
+
+.featureIntro
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 20px;
+	FONT-WEIGHT: normal;
+    COLOR: #993399;
+    TEXT-DECORATION: none;
+}
+
+.featureIntro2
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 16px;
+	FONT-WEIGHT: bold;
+    COLOR: #993399;
+    TEXT-DECORATION: none;
+}
+
+.featureIntro3
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+    COLOR: #993399;
+    TEXT-DECORATION: none;
+}
+
+.fB
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+	FONT-WEIGHT: normal;
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+}
+
+.fB A {
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+	COLOR: #333333;
+    TEXT-DECORATION: underline;
+}
+
+.fB A:hover {
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+	COLOR: #009900;
+    TEXT-DECORATION: underline;
+}
+
+.featureBody
+{
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+	FONT-WEIGHT: normal;
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+}
+
+.featureBody A {
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+	COLOR: #333333;
+    TEXT-DECORATION: underline;
+}
+
+.featureBody A:hover {
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+	COLOR: #009900;
+    TEXT-DECORATION: underline;
+}
+
+.welcome
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+	FONT-WEIGHT: bold;
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+}
+
+.welcome A
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+    COLOR: #990099;
+    TEXT-DECORATION: underline;
+}
+
+.welcome A:hover
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 13px;
+    COLOR: #ff33ff;
+    TEXT-DECORATION: underline;
+}
+
+.welcome2
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+    COLOR: #333333;
+    TEXT-DECORATION: none;
+}
+
+.welcome2 A
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+    COLOR: #990099;
+    TEXT-DECORATION: underline;
+}
+
+.welcome2 A:hover
+{
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+    COLOR: #ff33ff;
+    TEXT-DECORATION: underline;
+}
+
+.footer {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	COLOR: #333333;
+	FONT-WEIGHT: normal;
+}
+
+.footer A {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	COLOR: #669900;
+	FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline;
+}
+
+.footer A:hover {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	COLOR: #990099;
+	FONT-WEIGHT: normal;
+    TEXT-DECORATION: underline;
+}
+
+.footerP3 {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+	COLOR: #cc0066;
+}
+
+.footerP3 A {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+	COLOR: #669900;
+    TEXT-DECORATION: underline;
+}
+
+.footerP3 A:hover {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+	COLOR: #990099;
+    TEXT-DECORATION: underline;
+}
+span.onIt {
+    display: none;
+}
+
+span.offIt {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+    display: inline;
+    TEXT-DECORATION: none;
+}
+
+.ON span.onIt {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	COLOR: #cc0066;
+    display: inline;
+    TEXT-DECORATION: none;
+}
+
+.ON span.offIt {
+    display: none;
+}
+
+.footerP3 A.ON {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+	COLOR: #cc0066;
+    TEXT-DECORATION: underline;
+}
+
+.footerP3 A.ON:hover {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+	COLOR: #990099;
+    TEXT-DECORATION: underline;
+}
+
+
+.footerP3AT {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+	COLOR: #cc0066;
+}
+
+.footerP3AT A {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+	COLOR: #cc0066;
+    TEXT-DECORATION: underline;
+}
+
+.footerP3AT A:hover {
+    FONT-FAMILY: arial, helvetica, sans-serif;
+    FONT-SIZE: 10px;
+	FONT-WEIGHT: normal;
+	COLOR: #990099;
+    TEXT-DECORATION: underline;
+}
+
+HR {
+	COLOR: #a8d546;
+	WIDTH:100%;
+	HEIGHT: 1px;
+}
+
+TEXTAREA
+{
+	FONT-SIZE: 13px;
+}
+
+INPUT.TEXT
+{
+	FONT-SIZE: 13px;
+	WIDTH: 100px;
+}
+
+.register
+{
+	FONT-SIZE: 13px;
+	WIDTH: 115px;	
+}
+
+.register1
+{
+	FONT-SIZE: 13px;
+	WIDTH: 24px;	
+}
+
+.register2
+{
+	FONT-SIZE: 13px;
+	WIDTH: 140px;	
+}
+
+.register3
+{
+	FONT-SIZE: 13px;
+	WIDTH: 32px;	
+}
+
+.register4
+{
+	FONT-SIZE: 13px;
+	WIDTH: 360px;	
+}
+
+.regChild
+{
+	FONT-SIZE: 13px;
+	WIDTH: 105px;	
+}
+
+.errors {
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+	COLOR: #990000;
+    FONT-WEIGHT: bold;
+}
+
+.noBoldError {
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+	COLOR: #990000;
+    FONT-WEIGHT: normal;
+}
+
+
+SELECT
+{
+	FONT-SIZE: 10px;
+}
+
+SELECT.addToList
+{
+	FONT-SIZE: 10px;
+	WIDTH: 104px;
+}
+
+INPUT.regSubmit {
+	FONT-SIZE: 13px;
+	FONT-WEIGHT: bold;
+	COLOR: #3c6017;
+	BACKGROUND-COLOR: #b5dd55;
+}
+
+.handsOff {
+	cursor: default;
+}
+
+.handsOff A {
+	cursor: default;
+}
+
+.handsOff A:hover {
+	cursor: default;
+}
+
+
+.foodGuideCallout {
+	margin: 40px 0 0 0;
+	padding: 0 0 0 7px;
+	font-size: 11px;
+}
+
+p.downloadText {
+	color: #153803;
+}
+/*
+     FILE ARCHIVED ON 15:39:14 Feb 02, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:46:14 May 17, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 310.82 (3)
+  esindex: 0.008
+  captures_list: 331.068
+  CDXLines.iter: 14.491 (3)
+  PetaboxLoader3.datanode: 332.822 (4)
+  exclusion.robots: 0.175
+  exclusion.robots.policy: 0.164
+  RedisCDXSource: 1.972
+  PetaboxLoader3.resolve: 42.34
+  load_resource: 84.978
+*/
